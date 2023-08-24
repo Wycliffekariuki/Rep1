@@ -1,0 +1,217 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="Stylesheet" href="assets/css/Style.css">
+
+</head>
+<body>
+	<div class="nav-body-wrapper">
+		<div class="outer-div">
+			<div class="inner-div">
+				<nav>
+					<div class="logo">
+						<p>Vineyard</p>
+					</div>
+
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Products</a></li>
+						<li class="search-box"><input type="text"
+							placeholder="Search here..." id="search"></li>
+						<li><i class="fas fa-search search fa-lg mr-3"></i></li>
+
+					</ul>
+					<div class="account">
+						<ul>
+
+
+							<li class=shopping-bag1><a><i
+									class="fa-solid fa-user fa-lg shopping-bag"></i></a></li>
+							<li class="shopping-bag2"><a><i
+									class="fa-solid fa-bag-shopping fa-lg shopping-bag"></i></a></li>
+
+						</ul>
+					</div>
+				</nav>
+				<div class="slideshow-container">
+
+					<div class="mySlides">
+						<p>Wine Country</p>
+					</div>
+
+					<div class="mySlides">
+						<p>Taste the greatness</p>
+					</div>
+
+					<div class="mySlides">
+						<p>Indigenous recipies</p>
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next"
+						onclick="plusSlides(1)">❯</a>
+
+
+
+					<div class="dot-container">
+						<span class="dot" onclick="currentSlide(1)"></span> <span
+							class="dot" onclick="currentSlide(2)"></span> <span class="dot"
+							onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+				<div class="direct-links">
+					<div class="link-1">
+						<a href="#">
+							<p>WINES & SPIRITS</p>
+						</a>
+						<p class="below-a">Explore our high quality wines</p>
+						<hr>
+					</div>
+					<div class="link-1">
+						<a href="#">
+							<p>PRODUCTS</p>
+						</a>
+						<p class="below-a">We have got you covered</p>
+						<hr>
+					</div>
+					<div class="link-1">
+						<a href="#">
+							<p>EVENTS</p>
+						</a>
+						<p class="below-a">Get to see our wine tasting</p>
+						<hr>
+					</div>
+					<div class="link-1">
+						<a href="#">
+							<p>ABOUT US</p>
+						</a>
+						<p class="below-a">Learn about history of Vineyard</p>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer margin">
+			<div class="l-offer">
+				<p>This is one of our most expensive wine dash. It has been made
+					using one of our most treasured recipies. Get a pack and get two
+					more bottles for free plus a vip ticket to attend one of our
+					upcoming wine tasting event of your choice</p>
+				<button class="buy-now">Buy now</button>
+			</div>
+
+			
+				<img src="assets/images/a-wine-1-1.jpg">
+			
+		</div>
+
+
+
+
+		<div class="p-row margin">
+			<div class="product">
+				<img class="img-fluid" src="assets/images/a-wine-1.jpg">
+				<div class="p-details margin">
+					<h2 class="product-name">LUCTUSO CHARDONNAY</h2>
+					<h3 class="p-price">ksh 3,000</h3>
+					<button class="but-button">
+						<i class="fa-solid fa-bag-shopping fa-lg"></i>
+					</button>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<!-- Javascript -->
+	<script type="text/javascript">
+		const images = [ 'assets/images/jpeg-11-2.jpg',
+				'assets/images/jpeg-6.jpg', 'assets/images/jpeg-15-3.jpg' ];
+
+		let currentIndex = 0;
+
+		function changeBackgroundImage() {
+			const div = document.querySelector('.outer-div');
+			div.style.backgroundImage = `url('${images[currentIndex]}')`;
+			currentIndex = (currentIndex + 1) % images.length;
+		}
+
+		setInterval(changeBackgroundImage, 10000);
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+		/* This is the script for the quotes */
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+
+		setInterval(function() {
+			plusSlides(1);
+		}, 10000);
+
+		/*
+		 var slideIndex = 1;
+		 showSlides(slideIndex);
+
+		 function plusSlides(n) {
+		 showSlides(slideIndex += n);
+		 }
+
+		 function currentSlide(n) {
+		 showSlides(slideIndex = n);
+		 }
+
+		 function showSlides(n) {
+		 var i;
+		 var slides = document.getElementsByClassName("mySlides");
+		 var dots = document.getElementsByClassName("dot");
+		 if (n > slides.length) {slideIndex = 1}    
+		 if (n < 1) {slideIndex = slides.length}
+		 for (i = 0; i < slides.length; i++) {
+		 slides[i].style.display = "none";  
+		 }
+		 for (i = 0; i < dots.length; i++) {
+		 dots[i].className = dots[i].className.replace(" active", "");
+		 }
+		 slides[slideIndex-1].style.display = "block";  
+		 dots[slideIndex-1].className += " active";
+		 } */
+	</script>
+	<script src="https://kit.fontawesome.com/f5925100db.js"
+		crossorigin="anonymous"></script>
+</body>
+</html>

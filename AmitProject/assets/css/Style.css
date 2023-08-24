@@ -1,0 +1,1167 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Poppins:wght@200;300;400&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Tangerine:wght@400;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Nanum+Myeongjo:wght@400;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 200;
+	
+}
+.wrapper{
+	
+	width: 100%;
+	height: 100vh;
+	display: flex; 
+	justify-content: center 
+}
+
+.form-div{
+	display: block;
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px 40px;
+    box-shadow: 0px 5px 15px 5px #ddd;
+    border-radius: 10px;
+}
+.wrapper .form-div input{
+	display: block;
+	margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    
+	
+	
+	
+}
+.wrapper .form-div input[type="text"]{
+	outline: none;
+	border: 1px solid #ddd;
+	background: none;
+	text-indent: 20px;
+	height: 30px;
+	border: none;
+}
+.wrapper .form-div h2{
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+.wrapper .form-div input[type="text"]:hover{
+	border: 0.5px solid orange;
+	border-radius: 5px;
+}
+.wrapper .form-div input[type="text"]:focus{
+	border: 1.5px solid blue;
+}
+.wrapper .form-div input[type="submit"]{
+	outline: none;
+	background: orange;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.wrapper .form-div input[type="button"]{
+	outline: none;
+	background: purple;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	color: #fff;
+}
+
+
+/** This is where the index styling startt -------------------------------*/
+.nav-body-wrapper{
+    width: 100%;
+    height: 100%;
+    
+	
+}
+.margin{
+	margin: 0 auto;
+}
+
+
+.nav-body-wrapper .outer-div{
+	max-width: 100%;
+	height: 100vh;
+	 background-image: url('jpeg-15-3.jpg');
+	 background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 1.5s ease-in-out;
+    
+    
+
+}
+
+.nav-body-wrapper .outer-div .inner-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+	height: 85vh;
+	margin: 0 auto;
+	top: 50%;
+	position: relative;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background: transparent;
+	
+	
+	
+}
+.inner-div:last-item{
+	margin-bottom: none;
+}
+ .actual-nav{
+   width: 95%;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	height: 10vh;
+	background: transparent;
+	z-index: 2;
+	margin-top: 15px;
+}
+ nav ul{
+	display: flex;
+	margin: auto 0;
+	
+	
+}
+.nav-body-wrapper .outer-div .inner-div .logo{
+	max-width: 10%;
+	max-height: 60vh;
+	
+}
+nav  ul li{
+	margin: auto 0;
+	background: none;
+}
+nav  ul li a,
+.link-1 a p{
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		color: #fff;
+		cursor: pointer;
+		margin: auto 0;
+  transition: none;
+		
+	
+}
+.account{
+	margin: auto 0;
+	margin-left: 30px;
+}
+.account ul{
+	border: 1px solid #fff;
+	margin: auto 0;
+	
+}
+.account ul li{
+	margin-right: 0;
+	border: none;
+}
+.shopping-bag{
+	
+	border-right: 1px solid #fff;
+}
+.shopping-bag:hover{
+	background: #fff;
+	
+}
+.logo{
+	height: fit-content;
+	margin: auto 0;
+}
+.logo p{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-weight: 200;
+    transition: 1s ease;
+    margin: auto 0;
+    
+}
+nav  p,ul{
+	margin: auto 0;
+}
+nav  i[class*=fa-solid]::before{
+   background: transparent;
+  
+   
+ 
+}
+nav ul li a:hover{
+	color: orange;
+	
+}
+nav  i[class*=search]{
+	color: #fff;
+	margin: auto 0;
+	
+}
+
+nav actual-nav input[type="text"]{
+	outline: none;
+	border: 1px solid #fff;
+	background: transparent;
+	width: 200%;
+	height: 6vh;
+	transition: 1s ease-out;
+	color: black;
+	
+}
+
+nav actual-nav input[type="text"]::after{
+	color: #a83232;
+}
+
+nav  i[class*=fa-solid],
+nav  i[class*=fas]{
+	padding: 25px 20px;
+	margin: auto 0;
+	cursor: pointer;
+	font-size: 22px;
+	
+	
+	
+}
+nav  i[class*=fa-solid]:hover,
+nav  i[class*=fas]:hover{
+	color: orange;
+	background-color: #fff;
+-webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+nav{
+width: 100%;
+position: relative;
+}
+nav .logo p{
+    color: #a83232;
+}
+nav ul li a,
+.link-1 a p,
+nav i[class*=search],
+nav input[type="text"]{
+    color: black;
+}
+
+.account ul{
+    border: 0.5px solid black;
+    margin-left: 20px;
+}
+.account h5{
+	position: relative;
+}
+.account ul i[class*= search]{
+    border-right: 0.5px solid black;
+    color: #717873;
+    transition: background-color 100ms linear;
+    
+}
+.account ul i[class*= user]{
+    border-right: 0.5px solid black;
+    color: #717873;
+    
+}
+.account ul i[class*= bag]{
+    color: #717873;
+}
+nav  i[class*=fa-solid]:hover,
+nav  i[class*=fas]:hover,
+nav i[class*=search]:hover{
+	background: #a83232;
+	color: #fff;
+}
+.home li{
+    margin-left: 50px;
+}
+.home li a{
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+
+nav input[type="text"]{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+    color: #a83232;
+    background: #FFFBF9;
+    text-indent: 60px;
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 400;
+	font-size: 16px;
+	border: none;
+}
+.search-bar{
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: none;
+}
+
+.search-bar  i{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 1;
+    margin-right: 60px;
+    border: none;
+    background: transparent;
+    font-weight: 300;
+    padding-top: 2.3%;
+}
+#cancel-bar:hover{
+    color: #a83232;
+}
+
+/* Welcome */
+.welcome-outer{
+	width: 100%;
+	background: #eee;
+}
+.welcome{
+	width: 95%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.welcome .welcome-left li{
+	margin-right: 15px;
+}
+.welcome p,
+i{
+	font-size: 13px;
+}
+.welcome h5,
+.welcome .welcome-right i{
+	font-size: 16px;
+	margin-left: 10px;
+	border-radius: 50%;
+	padding: 7px 10px;
+	font-weight: 600;
+	border: 0.5px solid black;
+}
+.welcome .welcome-right i{
+	padding: 0;
+	padding: 8px 8px;
+}
+.welcome h5:hover,
+.welcome .welcome-right i:hover{
+	color: #fff;
+	background: #a83232;
+	border-color: #a83232;
+}
+
+.tooltiptext{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	
+}
+.tooltiptext:hover{
+	visibility: visible;
+}
+/* Slides ********************************************************************/
+
+
+
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Next & previous buttons **************************************************/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  top: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border: 1px solid transparent;
+	padding: 5px 10px;
+	background: transparent;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: orange;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+	display: none;
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    position: absolute;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+.slideshow-container{
+	position: relative;
+	background: transparent;
+	height: fit-content;
+	margin: auto 0;
+}
+/* Add an italic font style to all quotes */
+.slideshow-container p {
+	font-family: 'Cedarville Cursive', cursive;
+	color: #fff;
+	font-size: 60px;
+	
+}
+.mySlides{
+	margin: auto 0;
+	animation: fadeIn 2.5s;
+	height: fit-content;
+}
+@keyframes fadeIn{
+	0%{
+	opacity: 0;
+	}
+	100%{
+	opacity: 1;
+	}
+}
+.direct-links{
+	display: flex;
+	justify-content: space-between;
+
+}
+.link-1{
+	width: fit-content;
+}
+.link-1 a p{
+	font-size: 30px;
+}
+.link-1 .below-a{
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    color: orange;
+    font-weight: 200;
+    transition: 1s ease;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.link-1 hr{
+	width: 100%;
+}
+/* Separater styling --------------------------------------------------------*/
+.separater1{
+	width: 20%;
+	margin: 20px auto;
+}
+.separater1 p{
+	text-align: center;
+	font-family: 'Cardarville Cursive', cursive;
+	font-weight: 200;
+}
+.separater1 hr{
+	border: 1px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for offer------------------------------------------------------------*/
+.offer{
+	display: flex;
+	width: 35%;
+	height: 45vh;
+	justify-content: space-between;
+	background: #fbf9f4;
+	
+}
+.l-offer,.r-offer{
+	width: 80%;
+	
+}
+.l-offer{
+	margin: 40px 0;
+	margin-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.l-offer p{
+	font-weight: 600;
+    font-family: 'Nanum Myeongjo', serif;
+    
+	}
+
+#offer-p{
+	width: 80%;
+	margin: 0 auto;
+}
+.offer-details p{
+	margin-bottom: 10px;
+}
+.r-offer{
+	margin-left: 15px;
+}
+.r-offer img{
+	width: 100%;
+	height: 100%;
+}
+.offer-details button,
+.offer-details{
+	text-align: center;
+}
+.offer-details{
+	width: 100%;
+}
+.offer-details button,
+.P-buttons button{
+	width: 80%;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	margin-top: 10px;
+	background: #a83232;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+
+}
+.offer-details button:hover{
+	background:#ed6a09;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         /*  Products styling css*/
+
+.p-row{
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+	grid-auto-rows: auto;
+	column-gap: 40px;
+	row-gap: 30px;
+	
+	
+}
+
+.product{
+	
+   display: block;
+   position: relative;
+	cursor: pointer;
+	display: block;
+
+}
+
+.product img,
+.item-image img{
+	width: 100%;
+	height: auto;
+}
+
+.p-details h2,h3{
+	display: block;
+    font-family: 'Tangerine',italic;	font-size: 25px;
+	text-align: center;
+	color: #0a0b0b;
+	font-weight: 700;
+	
+}
+.p-details h2
+{
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.6;
+	letter-spacing: 3px;
+}
+.product ul{
+	display: none;
+	justify-content: center;
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.product ul li{
+	display: flex;
+}
+.product button{
+	width: fit-content;
+	height: fit-content;
+	outline: none;
+	background: none; 
+	border: none;
+	color: #33b249;
+	cursor: pointer;
+	font-size: 20px;
+}
+.product i::before{
+	background: transparent;
+}
+.product i{
+	color: #33b249;
+	padding: 25px 20px;
+	border: 0.5px solid black ;
+}
+.product i:hover{
+	border: 1px solid black ;
+	background-color: #ed6a09;
+	color: #fff;
+	 -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.product i:focus{
+	background-color: #a83232;
+	 -webkit-transition: background-color 10ms linear;
+    -ms-transition: background-color 10ms linear;
+    transition: background-color 10ms linear;
+}
+
+/* This is the styling for the Cart -------------------------*/
+
+
+
+
+/*This is the styling for the product page*/
+
+.product-row{
+	width: 90%;
+	display: flex;
+	margin: 80px auto;
+	
+	
+}
+.product-row p{
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 600;
+	font-size: 14px;
+	
+}
+.product-image{
+    max-height: 600px;
+	width: 40%;
+	display: flex;
+	justify-content: right;
+	
+}
+.product-image img{
+	width: 80%;
+	height: 100%;
+	padding-right: 40px;
+	position: right;
+}
+.product-details{
+	width: 50%;
+}
+.product-details h2{
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 10px;
+	vertical-align: super;
+	
+}
+.rating{
+	margin: 20px 0;
+}
+.rating i{
+	color: #a83232;
+	 
+}
+.product-details h3{
+	text-align: left;
+	margin-bottom: 20px;
+}
+.product-details p{
+	max-width: 80%;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+/* This is for the input styling  ***************************************/
+#p-buttons{
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #eee;
+  font-weight: 400;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+}
+/* End of input of type number */
+
+.p-buttons button{
+		width: 40%;
+	  height: 42px;
+	display: block;
+	outline: none;
+	background: #a83232;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+	float: left;
+	margin-left: 20px;
+}
+.p-buttons button:hover{
+	opacity: 0.7;
+}
+.p-fav{
+	height: 20px;
+	
+}
+p-fac ul{
+	height: inherit;
+	display: inline-flex;
+	
+}
+.p-fav button{
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+.p-fav i{
+	font-size: 18px;
+	background-color: #fff;
+	color: #a83232;
+	margin: auto 0;
+}
+.p-fav i:hover{
+	font-weight: 600;
+	color: #a83232;
+	
+}
+.span{
+	     height: 20px;
+       white-space: normal;
+       word-break: break-word;
+       align-items: center;
+       margin-top: -3px;
+}
+	
+
+.p-fav span {
+	line-height: 20px;
+	font-weight: 300;
+	font-size: 14px;
+	margin-left: 20px;
+	  white-space: normal;
+       word-break: break-word;
+       align-items: center;
+ 
+}
+.p-fav p{
+	font-size: 14px;
+	color: #a83232;
+	margin-top: 20px;
+}
+
+/*   Reviews and information about the product styling */
+
+.p-reviews{
+	width: 90%;
+	display: block;
+}
+.p-reviews hr
+.related-p hr{
+	border: 0.5px solid #ddd;
+	
+}
+.p-reviews p{
+    font-family: 'Nanum Myeongjo', serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.p-reviews ul{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	margin: 15px auto;
+}
+.p-reviews ul li {
+	cursor: pointer;
+}
+.p-reviews ul li p{
+	   letter-spacing: 5px;
+}
+.p-reviews ul li p:hover{
+	   color: #a83232;
+}
+.info-reviews{
+	display: flex;
+	justify-content: center;
+}
+.reviews{
+	display: flex;
+	width: 60%;
+	height: 100px;
+	margin: 40px 0;
+	
+}
+.reviews img{
+	width: 120px;
+	height: auto;
+	padding-right: 20px;
+}
+.date-rate{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.date-rate .rating{
+	margin: 0;
+}
+.date-rate p{
+	color: #a83232;
+}
+
+.review-details .name{
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+.info{
+	display: none;
+	margin: 40px 0;
+	height: 100px;
+}
+.info p{
+	font-size: 12px;
+
+}
+.info p span{
+	display: table-cell;
+	margin-left: 20px;
+	color: #a83232;
+}
+td p{
+	text-align: right;
+	margin-right: 20px;
+}
+td[class*="span"]{
+	text-align: left;
+	font-size: 12px;
+}
+
+
+/*              related Products          ******************/
+
+.related-p{
+	width: 90%;
+	
+}
+.related-p p{
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+}
+
+/*   Cart  ************************************************/
+.checkout:hover{
+	background: #a83232;
+}
+
+
+
+
+/*** Admin ************************************************************/
+
+.menu-content{
+	display: flex;
+}
+.menu-content  .menu{
+	background: #eee;
+	width: 10%;
+	height: 100vh;
+}
+.menu button{
+	border: none;
+	cursor: pointer;
+	
+}
+.menu ul li{
+	margin-bottom: 10px;
+}
+.menu ul{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.content{
+	width: 65%;
+	border: 1px solid #eee;
+	padding-left: 15px;
+}
+.content .dashboard{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	column-gap: 15px;
+	
+	
+}
+.content  .no{
+	margin-top: 10px;
+	height: 100px;
+	border-left: 2px solid ;
+	border-radius: 15px;
+	border-left-color: orange;
+	box-shadow: 0px 0px 15px 5px #eee;
+}
+.content .no p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: purple;
+    font-weight: 400;
+    
+}
+.add-product{
+	width: 50%;
+	margin-top: 30px;
+}
+.add-product p{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.add-product table td{
+	padding: 20px;
+}
+.add-product input[type="text"],
+.add-product input[type="number"]{
+	border: 0.5px solid #ccc;
+	height: 30px;
+	border-radius: 10px;
+	width: 200px;
+	outline: none;
+	text-indent: 10px;
+	
+}
+.add-product input[type="submit"]{
+	border: 0.5px solid #ccc;
+	height: 40px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: none;
+	cursor: pointer;
+	
+}
+.add-product input[type="submit"]:hover{
+	background: #a83232;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.bg-grey {
+background-color: #eae8e8;
+}
+
+@media (min-width: 992px) {
+.card-registration-2 .bg-grey {
+border-top-right-radius: 16px;
+border-bottom-right-radius: 16px;
+}
+}
+
+@media (max-width: 991px) {
+.card-registration-2 .bg-grey {
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
