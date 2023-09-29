@@ -253,7 +253,7 @@ nav input[type="text"]{
 					<img alt="" src="assets/images/melissa-1.jpg">
 					<div class="review-details">
 						<div class="date-rate">
-							<p>September 6,2019</p>
+							<p>August 6,2023</p>
 							<div class="rating">
 
 								<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
@@ -349,6 +349,7 @@ $(".product").on("mouseenter", function() {
 		  
 
 	});
+	
 	/****** This code implements the disappearing search-bar *****/
 $(document).ready(function() {
 $('#search-button').on('click', function(){

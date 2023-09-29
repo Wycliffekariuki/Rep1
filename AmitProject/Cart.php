@@ -45,7 +45,7 @@ if(isset($_SESSION['authenticated'])) {
 			<input class="margin" type="text" placeholder="Search here...">
 		<i class="fa-solid fa-x" id="cancel-bar" style="background: transparent"></i>
 		</div>
-			<div class="welcome-outer">
+			<div class="welcome-outer margin">
 		<div class="welcome margin">
 		
 		<ul class="welcome-left">

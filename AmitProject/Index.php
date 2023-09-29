@@ -26,6 +26,10 @@ require 'Connection.php';
 <style>
 nav{
     margin-top: -40px;
+    width: 100%;
+    
+    
+    
 }
 .account ul i[class*=user],
 .account ul i[class*=search],
@@ -86,6 +90,9 @@ i{
 	background: #fff;
 	color: #a83232;
 	border-color: #fff;
+}
+.actual-nav{
+    width: 100%;
 }
 </style>
 </head>
