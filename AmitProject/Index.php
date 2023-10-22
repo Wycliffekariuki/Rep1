@@ -264,7 +264,7 @@ i{
 		    </div>
 		    <ul>
 		    <li><button class="buy-button" id="p-heart"><i class="fa-solid fa-bag-shopping fa-lg" id="cart-button"></i></button></li>
-		    <li><button class ="but-button" id ="p-bag"><i class="fas fa-heart fa-lg" id="cart-button"></i></button></li>
+		    <li><button class ="but-button buy-button" id ="p-bag"><i class="fas fa-heart fa-lg" id="cart-button"></i></button></li>
 		    </ul>
 		    </div>
 		    </a>
@@ -455,6 +455,13 @@ i{
 	      });
 	      }
 	    });
+
+		//This code is going to enable the products buttons to work
+		$('.buy-button').on('click', function(event) {
+			event.stopPropagation();
+			alert("A button was clicked");
+
+		});
 	  });
 	</script>
 </body>

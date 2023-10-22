@@ -291,7 +291,7 @@ nav input[type="text"]{
 		    </div>
 		    <ul>
 		    <li><button class="buy-button"><i class="fa-solid fa-bag-shopping fa-lg" id="cart-button"></i></button></li>
-		    <li><button class ="but-button"><i class="fas fa-heart fa-lg" id="cart-button"></i></button></li>
+		    <li><button class ="but-button buy-button"><i class="fas fa-heart fa-lg" id="cart-button"></i></button></li>
 		    </ul>
 		    </div>
 		    </a>

@@ -638,7 +638,6 @@ nav .actual-nav{
 }
 
 .product{
-	
    display: block;
    position: relative;
 	cursor: pointer;
@@ -1119,7 +1118,36 @@ td[class*="span"]{
 	color: #fff;
 }
 
-/*  ****************************This is the styling for Checkbox  */
+/*  ****************************This is the styling for checkout  */
+.address .input-container{
+	position: relative;
+	display: block;
+}
+.product-row h4{
+	padding-bottom: 40px;
+	
+}
+.address .input-container input,
+.address select{
+	height: 40px;
+	width: 200px;
+	position: relative;
+	border: 1px solid #ccc;
+	text-indent: 20px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	outline: none;
+}
+.address .input-container label{
+	display: none;
+	position: absolute;
+	top: -1.5ex;
+	z-index: 1;
+	left: 20px;
+	background-color: white;
+	padding: 0 5px;
+	
+}
 
 
 
